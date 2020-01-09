@@ -16,7 +16,3 @@ function getSkill() {
         }
     });
 }
-
-$(document).ready(function () {
-    getSkill();
-});

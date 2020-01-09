@@ -16,7 +16,3 @@ function getLink() {
         }
     });
 }
-
-$(document).ready(function () {
-    getLink();
-});

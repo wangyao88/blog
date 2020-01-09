@@ -3,9 +3,9 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.sxkl.webapp</groupId>
+    <groupId>com.mohan.project</groupId>
     <artifactId>blog</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.Final</version>
 
     <packaging>war</packaging>
     <name>blog</name>

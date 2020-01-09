@@ -7,16 +7,13 @@ function getNavigation() {
             var navigations = result.data;
             var html = '';
             $(navigations).each(function (index, navigation) {
-                html += '<a href="' + navigation.key + '">' + navigation.value + '</a>';
+                html += '<a href="' + navigation.value + '">' + navigation.key + '</a>';
             });
             $("#topnav").html(html);
+            configSilder();
         },
         error: function () {
             console.log("获取导航栏信息失败！")
         }
     });
 }
-
-$(document).ready(function () {
-    getNavigation();
-});

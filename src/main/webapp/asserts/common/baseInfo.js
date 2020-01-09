@@ -16,7 +16,3 @@ function getBaseInfo() {
         }
     });
 }
-
-$(document).ready(function () {
-    getBaseInfo();
-});
